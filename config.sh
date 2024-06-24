@@ -56,11 +56,12 @@ echo "To verify node installation:  node -v"
 echo "nvm and Node.js installation complete!"
 
 # Install VSCode
-if !command -v code &> /dev/null; then
+
+if ! command -v code &> /dev/null; then
   echo "VS code not found. Installing VSCode..."
   brew install --cask visual-studio-code
 else
   echo "VSCode already installed."
-
+fi
 echo "All done! Please follow the instructions for customizing text color and explore Oh My Zsh themes for further personalization."
 
