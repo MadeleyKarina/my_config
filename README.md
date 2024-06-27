@@ -34,6 +34,8 @@ Open `setting.json` at VScode: `shift + cmd + p` look for `Open: User Settings (
     "editor.snippetSuggestions": "top",
     "editor.minimap.enabled": false,
     "editor.linkedEditing": true,
+    //Breadcrumb: top path
+    "breadcrumbs.enabled": false,
   // THEME
     "editor.semanticHighlighting.enabled": false,
     "editor.tokenColorCustomizations": {
