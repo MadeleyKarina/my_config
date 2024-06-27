@@ -1,4 +1,5 @@
-Run the script ./config.sh 
+# Installer Script:
+* Execute `./config.sh`
 
 # VS Code Extensions:
 
@@ -20,6 +21,8 @@ Run the script ./config.sh
  * React
     * [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
       * Extensions for React, React-Native and Redux in JS/TS with ES7+ syntax. Customizable. Built-in integration with prettier.
+ * Python
+    * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 # Settings
 
