@@ -54,7 +54,7 @@ Open `setting.json` at VScode: `shift + cmd + p` look for `Open: User Settings (
         ],
         "settings": {
           "fontStyle": "italic",
-          "foreground": "#F5F"
+          // "foreground": "#F5F"
         }
       },
       {
@@ -68,7 +68,19 @@ Open `setting.json` at VScode: `shift + cmd + p` look for `Open: User Settings (
   },
   "workbench.colorTheme": "Just Black",
   "editor.lineHeight": 0,
-  "editor.fontSize": 12,
+  "editor.fontSize": 13,
+  "workbench.editor.decorations.colors": false,
   "workbench.iconTheme": "vscode-icons",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/bower_components": true,
+    "**/node_modules": true
+  },
 }
 ```
