@@ -3,10 +3,10 @@
 
 # VS Code Extensions:
 
-## Themes/Color
+### Themes/Color
 * [Just Black](https://marketplace.visualstudio.com/items?itemName=nur.just-black)
 
-## Theme / Editor Experience
+### Theme / Editor Experience
 * [FontSize ShortCuts](https://marketplace.visualstudio.com/items?itemName=fosshaas.fontsize-shortcuts)
     * Change the font size with keyboard shortcuts.
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
@@ -17,14 +17,16 @@
     * Makes TS errors more human readable.
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
     * Spell check markdown, comments and variable names.
-* Languages and Libraries
- * React
+#### Languages and Libraries
+* React
     * [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
       * Extensions for React, React-Native and Redux in JS/TS with ES7+ syntax. Customizable. Built-in integration with prettier.
  * Python
     * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
-# Settings
+### Settings
+
+Open `setting.json` at VScode: `shift + cmd + p` look for `Open: User Settings (JSON)` and copy the Json bellow.
 
 ```json
 {
