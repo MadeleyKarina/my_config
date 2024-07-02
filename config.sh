@@ -63,5 +63,12 @@ if ! command -v code &> /dev/null; then
 else
   echo "VSCode already installed."
 fi
+
+# Personal apps: spotify, onenote, vlc, Teamviewer
+brew install --cask spotify
+brew install --cask microsoft-onenote
+brew install --cask vlc
+brew install --cask teamviewer
+
 echo "All done! Please follow the instructions for customizing text color and explore Oh My Zsh themes for further personalization."
 
